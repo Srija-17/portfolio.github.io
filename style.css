@@ -1,0 +1,173 @@
+/* Reset default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    div1{
+        h4{
+            text-align: center;
+        }
+    }
+}
+
+/* Header styling */
+header {
+    background-color: #133753;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Main section styling */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #2F4858;
+    h3{
+        text-align: center;
+    }
+}
+
+/* Section titles */
+h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color:#102d3e;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Unordered list and list items styling */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    background-color: #a4b5db; /* Pastel Light Blue */
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0; /* Optional: adds spacing around the list */
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+h4 {
+    font-size: 1.2em;
+    color: #2F4858;
+    margin-bottom: 5px;
+}
+
+/* Styling for the "Projects" section (div1) */
+div1 {
+    margin-bottom: 40px;
+}
+
+/* Div sections layout */
+div1, div2, div3, div4 {
+    margin-bottom: 30px;
+}
+
+div4{
+    p{  
+        text-align: center;
+    background-color: #a4b5db;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0;
+    }
+}
+
+/* Links styling */
+/* Section containing the links */
+section {
+    display: flex;
+    justify-content: center;  /* Centers the links horizontally */
+    align-items: center;      /* Centers the links vertically */
+    flex-direction: column;   /* Stacks the links vertically */
+    margin-top: 20px;         /* Adds space above the section */
+}
+
+/* Styling for the anchor tags (GitHub and LinkedIn links) */
+section a {
+    color: #c8dbe8;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #2f6b8e; /* Pastel Light Blue */
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;            /* Adds space between the links */
+    display: inline-block;     /* Makes the anchor behave like a block-level element */
+    text-align: center;        /* Centers the text inside the anchor */
+}
+
+
+
+
+a:hover {
+    color: #333;
+}
+
+/* Footer styling */
+footer {
+    background-color: #2F4858;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    main {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+}
