@@ -68,6 +68,7 @@ p {
 ul {
     list-style-type: none;
     padding-left: 0;
+    text-align: center;
 }
 
 li {
@@ -138,7 +139,9 @@ section a {
     text-align: center;        /* Centers the text inside the anchor */
 }
 
-
+section a:hover {
+    transform: translateY(-10px) scale(1.05); /* Moves the link up by 10px and increases its size by 5% */
+}
 
 
 a:hover {
